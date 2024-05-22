@@ -6,9 +6,6 @@ declare global {
 		interface Platform {
 			env: {
 				COUNTER: DurableObjectNamespace;
-				export async function post(context) {
-					const counter = context.platform.env.COUNTER.idFromName("A");
-				  }
 			};
 			context: {
 				waitUntil(promise: Promise<any>): void;
