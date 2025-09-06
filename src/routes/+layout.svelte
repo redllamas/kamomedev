@@ -1,7 +1,7 @@
-<nav>
+<nav class="text-center flex justify-center gap-20">
 	<a href="/" class="text-xl font-bold mb40">Home</a>
 	<a href="/about" class="text-xl font-bold mb40">About</a>
-	<a href="/settings" class="text-xl font-bold mb40">Settings</a>
+	<a href="/contact" class="text-xl font-bold mb40">Contact</a>
 </nav>
 
 <script>
